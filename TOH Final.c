@@ -14,6 +14,7 @@ void display_p2(void);
 int main()
 {
 	int n,i,x,a,b;
+	printf("|*|Tower of hanoi|*|");
 	printf("\nEnter the no. of Disks(recomended 1 to 30): ");
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
